@@ -130,7 +130,10 @@ bot/
 
 Distributed under the **[PolyForm Noncommercial 1.0.0](LICENSE)** license —
 any **noncommercial** use is allowed (personal, educational, research, by nonprofit
-organizations). Commercial use requires separate permission from the rights holder
-(**Nonaqie**).
+organizations).
+
+💼 **Commercial use** is available under a separate paid license. The bot **can be
+purchased for commercial use** — contact the rights holder (**Nonaqie**) at
+📧 **l_gggg_t@mail.ru**.
 
 The software is provided "as is", without warranties.
