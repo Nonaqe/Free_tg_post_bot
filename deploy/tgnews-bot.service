@@ -1,0 +1,18 @@
+[Unit]
+Description=TGNews Telegram scheduler bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# поправь путь и пользователя под свой VPS
+WorkingDirectory=/opt/tgnews
+ExecStart=/opt/tgnews/.venv/bin/python -m bot.main
+EnvironmentFile=/opt/tgnews/.env
+Restart=always
+RestartSec=5
+User=tgnews
+Group=tgnews
+
+[Install]
+WantedBy=multi-user.target

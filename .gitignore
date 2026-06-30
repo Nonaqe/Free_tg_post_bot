@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.db-wal
+*.db-shm
+logs/
+backups/
+data/
+
+# техзадание — не публиковать
+ТЗ_*.txt
+*_ТЗ*.txt

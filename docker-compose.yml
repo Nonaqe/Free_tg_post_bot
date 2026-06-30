@@ -1,0 +1,12 @@
+services:
+  bot:
+    build: .
+    restart: unless-stopped          # авто-перезапуск = вклад в 99% uptime
+    env_file: .env
+    environment:
+      DATABASE_URL: sqlite:////app/data/bot.db
+    volumes:
+      - ./data:/app/data             # БД, бэкапы (backups/), переживают пересборку
+    # для webhook-режима открыть порт:
+    # ports:
+    #   - "8080:8080"
